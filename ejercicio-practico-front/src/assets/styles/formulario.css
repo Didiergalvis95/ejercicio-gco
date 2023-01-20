@@ -13,6 +13,7 @@
 }
 
 .formulario h1{
+    text-transform: uppercase;
     margin: 0 0 5% 0;
     color: white;
 }
