@@ -1,0 +1,61 @@
+.formulario{
+    margin: 40px;
+    width: calc(100% - 80px);
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.815), gray);
+    border-radius: 40px;
+    box-shadow: 1px 1px 20px 10px black;
+
+}
+
+.formulario h1{
+    margin: 0 0 5% 0;
+    color: white;
+}
+
+form{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+    gap: 10px;
+}
+
+input:not(.enviar), .form_item{
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.contenedor{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grupoButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.enviar{
+    text-transform: uppercase;
+    font-weight: bold !important;
+    width: auto;
+    background: linear-gradient(gray, rgb(221, 213, 213) );
+}
+
+.enviar:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,11 @@
+.tabla{
+    margin: 2% 1% 3%;
+}
+
+table th{
+    border: 1px solid white;
+}
+
+.tabla h2{
+    margin-bottom: 2%;
+}

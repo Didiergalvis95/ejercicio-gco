@@ -1,0 +1,21 @@
+body{
+    background: black;
+}
+
+main{
+    width: 50%;
+    margin: 50px auto;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.btn-suscribirse{
+    text-transform: uppercase;
+    font-weight: bold !important;
+    background: linear-gradient(gray, rgb(221, 213, 213) );
+}
+
+.btn-suscribirse:hover{
+    color: #eceff1 !important;
+    transform: scale(1.1);
+}
